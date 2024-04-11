@@ -52,13 +52,13 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Tricia Van Laar',
+    title: 'Portfolio of Briteal Varda',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'triciavanlaar',
-    twitter: 'tvanlaarmicro',
+    linkedin: '',
+    twitter: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -71,9 +71,9 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://tvanlaar.github.io',
+    website: 'https://briteal.github.io',
     phone: '',
-    email: 'tvanlaar@csustan.edu',
+    email: 'britealv@gmail.com',
   },
   resume: {
     fileUrl:
