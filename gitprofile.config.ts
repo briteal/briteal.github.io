@@ -80,22 +80,22 @@ const CONFIG = {
       'https://briteal.github.io/pdf/DemoCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PCR', 'Bioinformatics', 'Teaching'
+    'Yapping', 'Bioinformatics', 'Teaching'
   ],
   experiences: [
+    {
+      company: 'CSU Stanislaus',
+      position: 'President of Pre-Health Society',
+      from: 'August 2023',
+      to: 'Present',
+      companyLink: 'https://www.csustan.edu',
+    },
     {
       company: 'CSU Stanislaus',
       position: 'Peer Educator',
       from: 'August 2021',
       to: 'Present',
       companyLink: 'https://www.csustan.edu',
-    },
-    {
-      company: 'CSU Fresno',
-      position: 'Assistant/Associate Professor',
-      from: 'August 2015',
-      to: 'August 2022',
-      companyLink: 'https://www.fresnostate.edu',
     },
   ],
   certifications: [
