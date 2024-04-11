@@ -1,0 +1,66 @@
+---
+name: Briteal
+surname: Varda
+#position: "Student"
+profilepic: 
+#add jpg in demoCV file "trica.jpg"
+pronouns: she/her
+address: "4624 Kirkes Dr"
+phone: (209) 277-7569
+#www: mariecurie.com
+email: "britealv@gmail.com"
+#twitter: mariecurie
+github: briteal
+#linkedin: mariecurie
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About Me
+
+ * Survived Quant
+ * Served as President of Pre-Health Society 
+ * I was the first person and only woman to win a Nobel prize in two different sciences.
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Details, 
+  "BS in Biological Sciences", "Expected Spring 2024", "California State University, Stanislaus", "Turlock, California",list("Minor in Chemical Sciences", "Summa Cum Laude")
+  
+) %>%
+  detailed_entries(Degree, Year, Institution, Where, Details)
+```
+
+# Work Experience 
+
+```{r}
+tribble(
+  ~ Title, ~ Dates, ~ Company, ~ Where, ~ Details, 
+  "Peer Educator", "2021-present", "California State University Stanislaus", "Turlock, California", 
+  list("Tutor in Biology and Chemistry courses", "Conducting outreach for students"), 
+  "In-Home Support Service", "2020-present", "Company?", "Turlock, California", 
+  list("Makiing appointments and translating for patients", "Aiding in basic needs for patients")
+  
+) %>%
+  detailed_entries(Title, Dates, Company, Where, Details)
+```
+
+# Scholarships and Awards
+```{r}
+tribble(
+  ~ Award, ~ Year, ~ Amount,
+  "Thomas James Young Memorial Scholarship in Conflict Resolution Management", "2022", "$500"
+) %>%
+#brief_entries(glue::glue("\\textbf{{<Award>}} \\hfill \\${{<Amount>}}", .open = "<", .close =))
+  
