@@ -80,7 +80,7 @@ const CONFIG = {
       'https://briteal.github.io/pdf/DemoCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Yapping', 'Bioinformatics', 'Teaching'
+    'Biliterate', 'Bioinformatics', 'Teaching'
   ],
   experiences: [
     {
@@ -100,24 +100,24 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Dean's List',
+      body: '',
+      year: '2020-2024',
+      link: 'https://www.csustan.edu/academic-affairs/college-science-deans-list',
     },
   ],
   educations: [
     {
-      institution: 'CSU Fresno',
-      degree: 'MBA',
+      institution: 'CSU Stanislaus',
+      degree: 'BS',
       from: '2020',
       to: '2024',
     },
     {
-      institution: 'University of Texas at San Antonio',
-      degree: 'PhD',
-      from: '2007',
-      to: '2012',
+      institution: '',
+      degree: '',
+      from: '',
+      to: '',
     },
   ],
   publications: [
