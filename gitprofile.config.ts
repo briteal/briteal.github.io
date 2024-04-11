@@ -100,10 +100,10 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Dean's List',
+      name: '',
       body: '',
-      year: '2020-2024',
-      link: 'https://www.csustan.edu/academic-affairs/college-science-deans-list',
+      year: '',
+      link: '',
     },
   ],
   educations: [
