@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://briteal.github.io/pdf/DemoCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://briteal.github.io/pdf/demoCV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Biliterate', 'Bioinformatics', 'Teaching'
